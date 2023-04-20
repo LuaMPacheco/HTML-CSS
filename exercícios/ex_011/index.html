@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanho de imagens</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Testando imagens de vários tamanhos e que são flexíveis!</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img_p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img_m.png" type="image/png">
+        <img src="imagens/img_g.png" alt="imagem flexível">
+    </picture>
+    <h1>Testando áudio</h1>
+    <audio src="midia/Ice & Fire - King Canyon.mp3" controls></audio>
+</body>
+</html>
+    <!-- Outros tipos de inserir audio
+    <audio preload="none" controls loop>
+        <source src="" type="audio/mpeg">
+        <source src="" type="audio/ogg">
+        <source src="" type="audio/wav">
+    </audio>
+    !-->

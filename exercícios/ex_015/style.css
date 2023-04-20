@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(248, 147, 240);
+    color:rgb(255, 255, 255);
+}
+h1 {
+    color: rgb(214, 20, 240);
+}
+h2 {
+    color: rgb(117, 117, 117);
+}
+p {
+    text-align: justify;
+}
+/*Anotações são assim!*/
