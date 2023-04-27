@@ -55,8 +55,9 @@ header > h1 {
 
 header > p {
     font-family: var(--fonte-padrao);
-    font-size: 16px;
-    max-width: auto;
+    font-size: 1em;
+    margin: auto;
+    padding-bottom: 50px;
 }
 
 nav {
@@ -171,6 +172,7 @@ ul > li {
 }
 
 aside > h3 {
+    font-family: var(--fonte-subtitulo);
     padding: 10px;
     background-color: var(--cor4);
     color: white;
