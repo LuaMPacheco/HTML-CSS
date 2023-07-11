@@ -9,6 +9,13 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
 
+        caption {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            font-size: 17px;
+            padding: 10px;
+        }
+
         table {
             width: 400px;
         }
@@ -31,10 +38,11 @@
 <body>
     <h1> Criando tabelas grandes</h1>
     <table>
+        <caption>População das unidades federativas do Brasil</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -95,7 +103,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th> Total de habitantes</th>
+                <th scope="row"> Total de habitantes</th>
                 <td class="num"><strong>00000</strong></td>
             </tr>
         </tfoot>
