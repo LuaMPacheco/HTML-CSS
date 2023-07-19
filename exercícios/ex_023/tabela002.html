@@ -18,6 +18,7 @@
 
         table {
             width: 400px;
+            position: relative;
         }
 
         td, th {
@@ -30,8 +31,14 @@
             color: whitesmoke;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(255, 80, 80);
+        }
+
         tbody > tr:nth-child(odd) {
-            background-color: antiquewhite;
+            background-color: rgb(250, 188, 188);
         }
 
         td.num{
@@ -104,7 +111,88 @@
                 <td>Goiás</td>
                 <td class="num">7.055.228</td>
             </tr>
+
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">6.775.152</td>
+            </tr>
+
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">3.974.495</td>
+            </tr> 
+
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">3.941.175</td>
+            </tr>
+
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">3.833.486</td>
+            </tr>
+
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">3.658.813</td>
+            </tr>
+
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3.302.406</td>
+            </tr>
+
+            <tr>
+                <td>Piauí</td>
+                <td class="num">3.269.200</td>
+            </tr>
+
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3.127.511</td>
+            </tr>
+
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="num">2.817.068</td>
+            </tr>
+
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">2.756.700</td>
+            </tr>
+
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2.209.558</td>
+            </tr>
+
+            <tr>
+                <td>Rondônia</td>
+                <td class="num">1.581.016</td>
+            </tr>
+
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">1.511.459</td>
+            </tr>
+
+            <tr>
+                <td>Acre</td>
+                <td class="num">830.026</td>
+            </tr>
+
+            <tr>
+                <td>Amapá</td>
+                <td class="num">733.508</td>
+            </tr>
+
+            <tr>
+                <td>Roraima</td>
+                <td class="num">636.303</td>
+            </tr>
         </tbody>
+
         <tfoot>
             <tr>
                 <th scope="row"> Total de habitantes</th>
