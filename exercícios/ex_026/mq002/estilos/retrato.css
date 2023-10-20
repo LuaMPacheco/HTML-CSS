@@ -2,3 +2,10 @@
 
 
 /*Estilo retrato (portrait)*/
+
+body {
+    background: url(../imagens/cev-portrait.jpg);
+    background-size: contain; /*o cover corta a cabeça*/
+   background-repeat: no-repeat;
+   background-position: center bottom;
+}
