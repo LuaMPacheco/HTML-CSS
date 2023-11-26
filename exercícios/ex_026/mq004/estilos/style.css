@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 
-body, html {
+html {
     width: 100vw;
     height: 100vh;
 }
@@ -18,20 +18,21 @@ body, html {
 body {
     background: black url(../imagens/back-phone.jpg) no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
 
 main {
-    background-color: rgba(254, 239, 233, 0.683);
-    width: 90vw;
+    background-color: rgba(255, 255, 255, 0.683);
+    width: 70vw;
     margin: auto;
     border-radius: 20px;
-    padding: 10px;
+    padding: 15px;
+    margin-top: 20px;
 }
 
 h1 {
     text-align: center;
-    color: white;
+    color: rgb(88, 88, 88);
     font-size: 1.1em;
 }
 
